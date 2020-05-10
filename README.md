@@ -76,4 +76,13 @@ Under l2 norm regularization on the size of parameters, the countur is smoother.
 Drop out has simmilar effect of regularization. Under 0.5 dropout rate the network is actually underfitting the data.
 ![flow](Readme_img/reg4.png)
 
+ ## 6. Stochastic gradient descent
+ ([Here is the notebook] https://github.com/yuehu9/Deep-Learning-From-Scratch/tree/master/6_SGD
 
+Basic SGD algorithms are implemented in numpy, including minibatch SGD and minibatch SGD with momentum.
+We still use MNIST dataset, and consider the task of classifying digits as 4 or not 4.
+
+ ## 7. Stochastic gradient descent
+ ([Here is the notebook] https://github.com/yuehu9/Deep-Learning-From-Scratch/tree/master/7_Adam
+ 
+ Adam optimization is implemented from scratch in numpy. We still use MNIST dataset, and consider the task of classifying digits as 4 or not 4.
